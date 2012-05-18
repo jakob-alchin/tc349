@@ -1,0 +1,277 @@
+body  {
+	font: 100%  Arial, Verdana, Helvetica, sans-serif;
+	background: #FFF;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: #000000;
+}
+h1 {
+	background-color:#000;
+	color:#FFF;
+	font-size:100%;
+	padding:2px 0 1px 6px;
+	font-weight:100;
+	margin:10px 0 0 0;
+}
+#top {
+	background: #ff312e;
+	height: 50px;
+	width: 100%;
+}
+#top .banner {
+	width: 960px;
+	margin:0px auto;
+	text-align: center;
+	font-size: 76%;
+	color: #FFF;
+	padding-top:15px;
+}
+#top a:link {
+	color:#FFF;
+}
+#top a:hover {
+	color:#000;
+}
+#container { 
+	width: 910px;
+	background: #FFF;
+	margin: 0 auto;
+	text-align: left;
+} 
+#header { 
+	height:160px;
+}
+#header .leftcontent {
+	width:70%;
+	float:left;
+	background-image:url(../images/themorningnews.png);
+	background-repeat:no-repeat;
+	background-position:left;
+	position:relative;
+	top:-25px;
+	height:100%;
+}
+#header .rightcontent {
+	width:30%;
+	float:right;
+	background:#F0F0F0;
+	height:124px;
+}
+#header .rightcontent p {
+	padding-left:10px;
+}
+#header h1 {
+	margin: 0;
+	padding: 10px 0;
+	text-align:center;
+	font-size:400%;
+}
+#header .trend {
+	padding-top:110px;
+	padding-right:80px;
+	text-align:center;
+	font-size:80%;
+	color:#999;
+}
+#header .trend a:link {
+	color:#999;
+	text-decoration:none;
+}
+#header .trend a:hover {
+	color:#990000;
+}
+#header .leftcontent .navcontainer {
+	width:100%;
+}
+#header .nav {
+	float:left;
+	font-size:90%;
+	color:#333;
+}
+#header .nav a:link {
+	text-decoration:none;
+	color:#333;
+	padding:4px;
+}
+#header .nav a:hover {
+	background-color:#000;
+	color:#FFF;
+}
+#header .search {
+	float:right;
+	position:relative;
+	top:-5px;
+	left:20px;
+
+}
+#header .button {
+	background:url(../images/search_icon.png);
+	background-repeat:no-repeat;
+	border:none;
+	position:relative;
+	left:-26px;
+}
+#header .searchbar {
+	border:1px solid #CCC;
+	height:24px;
+}
+#sidebar {
+	float: right;
+	width: 30%;
+	background: #FFF;
+}
+#sidebar .sidecontent {
+	padding-left:20px;
+	padding-top:20px;
+}
+#sidebar h3 {
+	font-size:85%;
+}
+#sidebar .headline a:link {
+	color:#000;
+	text-decoration:none;
+	font-size:80%;
+}
+#sidebar .headline a:hover {
+	color:#990000;
+}
+#sidebar h3 a:link {
+	color:#990000;
+	text-decoration:none;
+}
+#sidebar h3 a:hover {
+	color:#000;
+}
+#mainContent { 
+	margin: 0 250px 0 0;
+	padding-top:10px;
+	width:70%;
+}
+#mainContent h2 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:240%;
+	color:#3366FF;
+	font-weight:100;
+	padding-top:10px;
+	margin:0;
+}
+#mainContent h2 a:link {
+	color:#3366FF;
+	text-decoration:none;
+}
+#mainContent h2 a:hover {
+	color:#000;
+}
+#mainContent p {
+	font-family:"Times New Roman", Times, serif;
+	font-size:110%;
+	color:#333;
+}
+#mainContent img {
+	padding-right:10px;
+}
+#mainContent .author {
+	color:#666;
+	font-style:italic;
+}
+#footer { 
+	background:#000;
+	width:100%;
+	height:120px; 
+}
+#footer .footcontent {
+	width:910px;
+	margin:0 auto;
+	text-align:left;
+}
+#footer .footleft {
+	float:left;
+}
+#footer .footright {
+	float:right;
+}
+#footer p {
+	margin: 0;
+	padding: 10px 0;
+	color:#FFF;
+}
+#footer h1 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:300%;
+	color:#FFF;
+	float:left;
+}
+#footer .copy {
+	float:right;
+	position:relative;
+	left:15px;
+	top:20px;
+	font-size:80%;
+	color:#999;
+}
+#footer .copy a:link {
+	color:#999;
+	text-decoration:none;
+}
+#footer .copy a:hover {
+	color:#FFF;
+}
+#footer .social {
+
+	font-size:80%;
+	color:#999;
+	position:relative;
+	top:20px;
+}
+#footer .social a:link {
+	color:#999;
+	text-decoration:none;
+}
+#footer .social a:hover {
+	color:#FFF;
+}
+.fltrt {
+	float: right;
+	margin-left: 8px;
+}
+.fltlft {
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat {
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+.bold {
+	font-weight:bold;
+}
+.italic {
+	font-style:italic;
+}
+hr {
+	color:#000;
+	position:relative;
+	top:-6px;
+	left:-2px;
+	width:632px;
+}
+#bottom {
+	margin-top:40px;
+	margin-bottom:60px;
+}
+.previous {
+	color:#990000;
+	margin:0;
+	padding-bottom:18px;
+	padding-top:8px;
+}
+.previous a:link {
+	color:#990000;
+	text-decoration:none;
+}
+.previous a:hover {
+	color:#000;
+}
