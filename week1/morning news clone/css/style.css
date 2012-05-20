@@ -45,7 +45,7 @@ h1 {
 #header .leftcontent {
 	width:70%;
 	float:left;
-	background-image:url(../images/themorningnews.png);
+	background-image:url(../images/mnewsbanner.png);
 	background-repeat:no-repeat;
 	background-position:left;
 	position:relative;
@@ -106,7 +106,7 @@ h1 {
 
 }
 #header .button {
-	background:url(../images/search_icon.png);
+	background:url(../images/search.png);
 	background-repeat:no-repeat;
 	border:none;
 	position:relative;
