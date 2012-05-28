@@ -1,0 +1,46 @@
+nav[role="navigation"] ul {
+	float:left;
+	width:720px;
+	margin:0;
+	list-style:none;
+	padding:10px 0 0 46px;
+	background:#FFCB2D url(../images/nav_bg.gif) repeat-x bottom left;
+}
+nav[role="navigation"] li {
+	float:left;
+	margin:0 1px 0 0;
+	padding:0;
+	font-family:"Lucida Grande", sans-serif;
+	font-size:80%;
+}
+nav[role="navigation"] ul li a {
+	float:left;
+	display:block;
+	margin:0;
+	padding:4px 8px;
+	color:#333;
+	text-decoration:none;
+	border:1px solid #9B8748;
+	border-bottom:none;
+	background: rgb(231,212,154);
+	background: -moz-linear-gradient(top, rgba(231,212,154,1) 0%, rgba(255,230,169,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(231,212,154,1)), color-stop(100%,rgba(255,230,169,1)));
+	background: -webkit-linear-gradient(top,rgba(231,212,154,1) 0%,rgba(255,230,169,1) 100%);
+	background: -o-linear-gradient(top, rgba(231, 212,154,1) 0%,rgba(255,230,169,1) 100%);
+	background: -ms-linear-gradient(top, rgba(231,212,154,1) 0%, rgba(255,230,169,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient ( startColorstr='#e7d49a', endColorstr='#ffe6a9', GradientType=0 );
+	background: linear-gradient(top, rgba(231,212,154,1) 0%, rgba(255,230,169,1) 100%);
+}
+nav[role="navigation"] ul li a:hover, body#intro #t-intro a {
+	color:#333;
+	padding-bottom:5px;
+	border-color:#727377;
+	background: rgb(224,226,238);
+	background: -moz-linear-gradient(top, rgba(224,226,238,1) 0%, rgba(255,255,255,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(224,226,238,1)), color-stop(100%,rgba(255,255,255,1)));
+	background: -webkit-linear-gradient(top,rgba(224,226,238,1) 0%,rgba(255,255,255,1) 100%);
+	background: -o-linear-gradient(top, rgba(224,226,238,1) 0%,rgba(255,255,255,1) 100%);
+	background: -ms-linear-gradient(top, rgba(224,226,238,1) 0%, rgba(255,255,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient ( startColorstr='#e0e2ee', endColorstr='#ffffff', GradientType=0 );
+	background: linear-gradient(top, rgba(224,226,238,1) 0%, rgba(255,255,255,1) 100%);
+}
