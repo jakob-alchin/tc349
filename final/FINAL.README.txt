@@ -1,0 +1,3 @@
+Switched from software to record label.
+
+Using Bootstrap framework to further learn it after assignment 5.
