@@ -1,0 +1,9 @@
+body {
+	padding:6px;
+}
+
+#box {
+	background:#006600;
+	width:300px;
+	height:300px;
+}
